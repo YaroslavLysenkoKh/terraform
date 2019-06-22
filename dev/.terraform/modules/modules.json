@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"our_vpc","Source":"../modules/vpc","Dir":"..\\modules\\vpc"},{"Key":"","Source":"","Dir":"."},{"Key":"instances","Source":"../modules/ec2","Dir":"..\\modules\\ec2"}]}
