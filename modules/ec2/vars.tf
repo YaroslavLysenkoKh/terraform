@@ -1,6 +1,6 @@
 variable "ami" {
   type    = "string"
-  default = "ami-098bb5d92c8886ca1"
+  default = "ami-08949fb6466dd2cf3"
 }
 variable "instance_type" {
   type    = "string"
@@ -9,4 +9,4 @@ variable "instance_type" {
 variable "ec2_count" {
   default = 1
 }
-variable "front_subnet_id" {}
+variable "subnet_id" {}

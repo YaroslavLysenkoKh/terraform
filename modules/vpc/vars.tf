@@ -7,18 +7,17 @@ variable "cidr" {
     "all"            = "0.0.0.0/0"
   }
 }
-variable "enable_dns_hostnames" {
+variable "enable_dns" {
   default = true
 }
 variable "enable_dns_support" {
   default = true
 }
 variable "vpc_id" {}
-}
-variable "map_public_ip_on_launch" {
+variable "public_ip_on_launch" {
   default = true
 }
-variable "availability_zone" {
-  type = string
-  default = "us-east-1"
+variable "zone" {
+  type    = string
+  default = "us-west-1a"
 }
